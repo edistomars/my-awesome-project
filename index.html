@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weather Wireframe</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <meta charset="UTF-8" />
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/27fb428e89.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitter:wght@300&display=swap" rel="stylesheet">
+    <link href="src/styles.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+
+  <body>
+     
+      <html>
+          <head>
+            <title>Weather Wireframe</title>
+            <meta charset="UTF-8" />
+            <link
+              href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+              rel="stylesheet"
+              integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+              crossorigin="anonymous"
+            />
+            <script
+              src="https://kit.fontawesome.com/27fb428e89.js"
+              crossorigin="anonymous"
+            ></script>
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@300&display=swap" rel="stylesheet">
+            <link href="src/styles.css" />
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+          </head>
+        
+          <body>
+            <div class="container">
+              <div class="card">
+                <div class="card-body">
+                <div class="row">
+                <div class="col-9">
+                    <form id="search-form" class="enter-city">
+                        <input type="text" placeholder="Enter City Here..." autocomplete="off" autofocus="on" id="search-text-input"  />
+                       <button><i class="fas fa-search"></i></button>
+                       <div class="col-5">
+                          <button type="button" id="currentLocation" class="btn btn-light">Current Location Temperature <i class="fas fa-map-pin"></i></button>
+                          
+                      </div>
+
+                <h1>
+                 
+                  
+                  
+                </h1>
+                <br><br><br>
+                <p class="city"></p>
+                <ul class="noSpace">
+                  <li id="date"></li>
+                  <li id="temperature" class="temperature"></li>
+                  <li id="description"></li>
+                </ul>
+                <h2>
+                 
+                </h2>
+                <div class="col-11 tempDetails">
+                  <ul>
+                      <li>Humidity: <span id="humidity"></span>%</li>
+                      <li>Wind: <span id="wind"></span> mph</li>
+                  </ul>
+                </div>
+              </div>
+
+              
+              </form>
+                <div class="col-3 secondC">
+                    
+                        <div class="col sat">
+                          Saturday
+                        </br>
+                          <i class="fas fa-cloud-sun"></i>
+                          <p><strong>75°</strong> 55°</p>
+                        </div>
+                        <div class="col sday">
+                          Sunday
+                        </br>
+                          <i class="fas fa-sun"></i>
+                          <p><strong>80°</strong> 66°</p>
+                        </div>
+                        <div class="col mon">
+                            Monday
+                        </br>
+                            <i class="fas fa-cloud-sun"></i>
+                            <p><strong>82°</strong> 65°</p>
+                        </div>
+                        <div class="col tue">
+                            Tuesday
+                        </br>
+                            <i class="fas fa-bolt"></i>
+                            <p><strong>79°</strong> 60°</p>
+                        </div>
+                        <div class="col wed">
+                            Wednesday
+                        </br>
+                            <i class="fas fa-cloud-sun-rain"></i>
+                            <p><strong>78°</strong> 60°</p>
+                        </div>    
+              </div>
+            </div>
+              <script src="src/index.js"></script>
+            </div>
+<script src="index.js"></script>
+          </body>
+</html>

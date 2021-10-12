@@ -1,0 +1,98 @@
+body {
+  font-family: "Bitter", serif;
+}
+input[type="text"] {
+  width: 300px;
+  height: 30px;
+}
+
+h1,
+p,
+h2,
+ul {
+  text-align: center;
+}
+h2 {
+  color: #1ab2a8;
+  font-size: 50px;
+  font-weight: 500;
+}
+ul {
+  list-style-type: none;
+  color: #1ab2a8;
+}
+
+button {
+  border: none;
+  padding: 10px;
+  background: none;
+}
+button:hover {
+  cursor: pointer;
+}
+form {
+  padding: 15px;
+}
+
+.sun {
+  color: #fff;
+  font-size: 200px;
+  padding: 10px;
+}
+
+.city {
+  color: #1ab2a8;
+  font-size: 100px;
+  font-weight: 700;
+  font-style: italic;
+}
+.card {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(255, 200, 124) 0.1%,
+    rgb(252, 251, 121) 90%
+  );
+  border-radius: 25px;
+}
+
+.secondC {
+  padding: 200px 50px;
+  border-radius: 50px;
+}
+
+.sat,
+.sday,
+.mon,
+.tue,
+.wed {
+  color: #1ab2a8;
+  background-color: #fff;
+  border: solid;
+  padding: 0px;
+  font-size: 20px;
+  text-align: center;
+}
+.sat:hover,
+.sday:hover,
+.mon:hover,
+.tue:hover,
+.wed:hover {
+  background: #f2f2f2;
+}
+.temperature {
+  font-size: 80px;
+}
+p,
+.noSpace {
+  margin: 5px;
+  padding: 5px;
+}
+.noSpace {
+  font-size: 50px;
+  font-weight: 200;
+}
+.tempDetails {
+  font-size: 30px;
+  font-weight: 100;
+  text-align: center;
+}
