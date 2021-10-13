@@ -21,6 +21,14 @@ ul {
   list-style-type: none;
   color: #1ab2a8;
 }
+input::placeholder {
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 400;
+  color: black;
+  padding: 15px 20px;
+  background: #f9fafb;
+}
 
 button {
   border: none;
@@ -95,4 +103,9 @@ p,
   font-size: 30px;
   font-weight: 100;
   text-align: center;
+}
+.btn-light {
+  padding: 15px 20px;
+  font-size: 15px;
+  box-shadow: 2px 5px 5px #a19f9f;
 }
