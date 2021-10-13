@@ -62,6 +62,9 @@ form {
   );
   border-radius: 25px;
 }
+.container {
+  padding: 50px;
+}
 
 .secondC {
   padding: 200px 50px;
